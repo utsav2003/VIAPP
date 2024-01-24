@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Viapp</title>
+  <link rel="stylesheet" href="css/homeStyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<script>
+  const getLink = () => {
+      let link = prompt("Enter link");
+      window.open(link)
+    };
+</script>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">VIapp</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="register">SingUp</a></li>
+        <li><a href="login">Login</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Connect, collaborate, conquer </div>
+    <div class="sub_title">wherever you are</div>
+    <div class="btns">
+      <a href="room"><button>Start Meeting</button></a>
+      <button onclick="getLink()">Join Meeting</button>
+    </div>
+  </div>
+</body>
+
+</html>

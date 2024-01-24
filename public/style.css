@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    
+    background-color:white;
+    font-family: Arial;
+}
+
+.datetime{
+  margin:30px;
+  padding:20px;
+  font-family: Consolas;
+  font-weight: bolder;
+  font-size: large;
+}
+/* 
+.main{ 
+    margin: 125px;
+    padding: 125px;
+    color: #1289A7;
+    font-family: Arial;
+} */
+.logo{
+  height:60px;
+  width:100px;
+  float:left;
+  color: #006266;
+
+}
+.logoimage{
+  height:71px;
+  width:110px;
+  float:left;
+  color: #006266;
+  
+}
+
+.navigation{
+    overflow: hidden;
+   background-color: #ffffff;
+   
+}
+
+
+
+  .navigation a  {
+
+    float: right;
+    padding: 25px 40px; 
+    text-decoration: none;
+    text-align: center;
+    color: #006266;
+    font-weight: bold;
+    
+  }
+  p{
+    
+    float: right;
+    padding: 25px 40px; 
+    text-align: center;
+    color: #006266;
+    font-weight: bold;
+    
+    
+  }
+
+  .navigation a.active {
+    background-color: #006266;
+    color: white;
+  }
+  .navigation a:hover{
+    background-color: #006266;
+    color: white;
+  }
+
+  .image1{
+    height:500px;
+    float:left;
+    /* margin:20px;
+    padding:10px; */
+  }
+
+  .new-meeting{
+    height: 450px;
+    width:500px;
+    background-color: #dee1e7;
+    float: right;
+    margin: 23px ;
+    
+    border: 0px solid;
+    border-radius:50px;
+
+  }
+
+  .parah{
+    font-size: 30px;
+  }
+  .none{
+    text-decoration: none;
+  }
+  .btn-primary {
+   margin:10px 40px 40px 160px;
+   padding:30px;
+   color: #006266;
+  }
+
+
+
+
+ /* style for meeting */
+
+ 

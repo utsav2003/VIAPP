@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/regStyle.css">
+    <link rel="stylesheet" href="css/homeStyle.css">
+</head>
+<style>
+    nav {
+        position: absolute;
+        top: 0px;
+    }
+</style>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">VIapp</a>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="register">SingUp</a></li>
+                <li><a href="login">Login</a></li>
+    
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your Email" name="email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Enter your password" name="password" required>
+            </div>
+            <div class="input-box button">
+                <input type="Submit" value="Login">
+            </div>
+            <div class="text">
+                <h3>Not have an account? <a href="register">SignUp now</a></h3>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
